@@ -29,14 +29,14 @@ namespace YIYI.LocalData
             set { m_dataModel = value; }
         }
 
-        //public DataManagerBase(DataModelBase dataModel)
+        //public LocalData(DataModelBase dataModel)
         //{
         //    //Debug.Assert(null != manager, "Unexpected null manager");
         //    //Manager = manager;
         //    m_dataModel = dataModel as T;
         //}
 
-        public DataManagerBase()
+        public LocalData()
         {
             m_dataModel = new object() as T;
         }
