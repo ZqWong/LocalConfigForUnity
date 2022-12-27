@@ -13,9 +13,6 @@ namespace YIYI.LocalData
 	// member data here are named so they can be serialized
 	// automatically, so don't rename anything
 
-	/// <summary>
-	/// 本地加密
-	/// </summary>
 	public static class LocalCryptoGraphy
 	{
 		static public string ENCRYPTION_HEADER = "ProPlay_Local_";
